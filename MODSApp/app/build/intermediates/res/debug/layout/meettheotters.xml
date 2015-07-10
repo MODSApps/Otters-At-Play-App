@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/otter">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joey"
+        android:id="@+id/button3"
+        android:layout_column="14"
+        android:layout_marginTop="111dp"
+        android:textSize="55dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignLeft="@+id/button7"
+        android:clickable="true"
+        android:enabled="true"
+        android:longClickable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linus"
+        android:id="@+id/button4"
+        android:textSize="45dp"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="106dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marlin"
+        android:id="@+id/button5"
+        android:textSize="45dp"
+        android:layout_alignTop="@+id/button6"
+        android:layout_alignRight="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jafar"
+        android:id="@+id/button6"
+        android:textSize="45dp"
+        android:layout_marginTop="500dp"
+        android:layout_alignLeft="@+id/button4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meet The Otters"
+        android:id="@+id/button7"
+        android:textSize="45dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/juanjose/StudioProjects/MODSApp/app/src/main/res/layout/meettheotters.xml -->
