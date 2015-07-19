@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.example.sudoku"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="3"
+        android:targetSdkVersion="10" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/modsicon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Sudoku"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_meet_the_otters" >
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="@string/settings_title" >
+        </activity>
+        <activity
+            android:name=".BehindTheScenes"
+            android:label="@string/title_activity_behind_the_scenes" >
+        </activity>
+        <activity
+            android:name=".Anatomy"
+            android:label="@string/title_anatomy" >
+        </activity>
+        <activity
+            android:name=".OttersGoneWild"
+            android:label="@string/title_Otters_Gone_Wild" >
+        </activity>
+        <activity
+            android:name=".Quiz"
+            android:label="@string/title_quiz" >
+        </activity>'
+        <activity
+            android:name=".HiddenDangers"
+            android:label="@string/title_hidden_dangers" >
+        </activity>
+        <activity
+            android:name=".JoeyInformation"
+            android:label="@string/title_joey_information" >
+        </activity>
+        <activity
+            android:name=".JafarInformation"
+            android:label="@string/title_jafar_information" >
+        </activity>
+        <activity
+            android:name=".LinusInformation"
+            android:label="@string/title_linus_information" >
+        </activity>
+        <activity
+            android:name=".MarlinInformation"
+            android:label="@string/title_marlin_information" >
+        </activity>
+        <activity
+            android:name=".NFood"
+            android:label="@string/title_natural_food" >
+        </activity>
+        <activity
+            android:name=".Daily"
+            android:label="@string/tittle_daily" >
+        </activity>
+        <activity
+            android:name=".Relationships"
+            android:label="@string/title_relationships" >
+        </activity>
+        <activity
+            android:name=".Predators"
+            android:label="@string/title_predators" >
+        </activity>
+        <activity
+            android:name=".CageCleaning"
+            android:label="@string/title_cage_cleaning" >
+        </activity>
+        <activity
+            android:name=".Diet"
+            android:label="@string/title_diet" >
+        </activity>
+        <activity
+            android:name=".Care"
+            android:label="@string/title_care" >
+        </activity>
+        <activity
+            android:name=".Dailyl"
+            android:label="@string/title_daily" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/otter"
+        android:layout_marginTop="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="North American River Otter Populations were once almost entirely eliminated around heavily populated areas in the Midwestern and eastern United States. Population trends although have stabilized in recent years and conservation efforts have resulted in the re-colonization of areas where they were previously eradicated. Northern river otter populations are still considered vulnerable throughout much of their range. Although they have serious environmental dangers from humans, their situation has not been assessed throughout much of the southeast including Florida and Georgia."
+        android:id="@+id/humanProblems"
+        android:textSize="32dp"
+        android:textIsSelectable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Human Issues"
+        android:id="@+id/textView3"
+        android:textSize="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout><!-- From: file:/C:/Users/juanjose/StudioProjects/MODSApp/app/src/main/res/layout/humanspresentproblems.xml -->

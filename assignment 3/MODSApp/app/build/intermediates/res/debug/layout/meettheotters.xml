@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/finalottercollage">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joey"
+        android:id="@+id/joey_button"
+        android:layout_column="14"
+        android:layout_marginTop="111dp"
+        android:textSize="55dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignLeft="@+id/button7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linus"
+        android:id="@+id/linus_button"
+        android:textSize="45dp"
+        android:layout_alignTop="@+id/joey_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="106dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marlin"
+        android:id="@+id/marlin_button"
+        android:textSize="45dp"
+        android:layout_alignTop="@+id/jafar_button"
+        android:layout_alignRight="@+id/joey_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jafar"
+        android:id="@+id/jafar_button"
+        android:textSize="45dp"
+        android:layout_marginTop="500dp"
+        android:layout_alignLeft="@+id/linus_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meet The Otters"
+        android:id="@+id/button7"
+        android:textSize="45dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/juanjose/StudioProjects/MODSApp/app/src/main/res/layout/meettheotters.xml -->

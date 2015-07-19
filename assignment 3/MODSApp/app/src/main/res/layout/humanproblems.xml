@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/pollutedriver">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The Hidden Dangers"
+        android:id="@+id/pollutionTitle"
+        android:layout_marginTop="148dp"
+        android:textSize="50dp"
+        android:textColor="#fff4fff4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="North American River Otter Populations were once almost entirely eliminated around heavily populated areas in the Midwestern and eastern United States. Population trends although have stabilized in recent years and conservation efforts have resulted in the re-colonization of areas where they were previously eradicated. Northern river otter populations are still considered vulnerable throughout much of their range. Although they have serious environmental dangers from humans, their situation has not been assessed throughout much of the southeast including Florida and Georgia."
+        android:textSize="30dp"
+        android:paddingLeft="55dp"
+        android:paddingRight="25dp"
+        android:id="@+id/textView5"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

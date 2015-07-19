@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/slackers">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Otters At Play"
+        android:id="@+id/Otter_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:textSize="45dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:textColor="#fffbf4ff" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meet The Otters"
+        android:id="@+id/Meet_button"
+        android:layout_marginTop="71dp"
+        android:textSize="30dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:layout_below="@+id/Otter_text"
+        android:layout_alignLeft="@+id/Otter_text"
+        android:layout_alignRight="@+id/Otter_text" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V.I.P. Behind The Scenes"
+        android:id="@+id/Behind_button"
+        android:layout_marginTop="62dp"
+        android:textSize="30dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:layout_below="@+id/Meet_button"
+        android:layout_alignLeft="@+id/Meet_button"
+        android:layout_alignRight="@+id/Meet_button" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otters Gone Wild"
+        android:id="@+id/Activities_In_The_Wild"
+        android:layout_below="@+id/Behind_button"
+        android:layout_marginTop="53dp"
+        android:textSize="30dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:layout_alignLeft="@+id/Behind_button"
+        android:layout_alignRight="@+id/Behind_button" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anatomy"
+        android:id="@+id/Anatomy_button"
+        android:textSize="30dp"
+        android:layout_below="@+id/Activities_In_The_Wild"
+        android:layout_marginTop="72dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:layout_alignLeft="@+id/Activities_In_The_Wild"
+        android:layout_alignRight="@+id/Activities_In_The_Wild" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Hidden Dangers"
+        android:id="@+id/Dangers_button"
+        android:layout_marginTop="81dp"
+        android:textSize="30dp"
+        android:layout_below="@+id/Anatomy_button"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:layout_alignLeft="@+id/Anatomy_button"
+        android:layout_alignRight="@+id/Anatomy_button" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:id="@+id/Quiz_button"
+        android:textSize="30dp"
+        android:layout_marginTop="750dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:layout_alignLeft="@+id/Dangers_button"
+        android:layout_alignRight="@+id/Dangers_button" />
+</RelativeLayout>
+
